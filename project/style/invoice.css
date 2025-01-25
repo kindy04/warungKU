@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.invoice-container {
+  width: 80%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.invoice-header {
+  background-color: #6f4f1f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 5%;
+}
+
+.invoice-header h1 {
+  margin: 0;
+}
+
+.invoice-header p {
+  margin-top: 10px;
+}
+
+.invoice-details table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.invoice-details table th,
+.invoice-details table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.invoice-details table th {
+  background-color: #6f4f1f;
+  color: white;
+}
+
+.invoice-summary {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.invoice-summary p {
+  margin: 5px 0;
+}
+
+.invoice-summary strong {
+  font-weight: bold;
+}
+
+.payment-method {
+  margin-top: 10px;
+}
+
+.payment-method select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.payment-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.confirm-btn {
+  background-color: #6f4f1f;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.confirm-btn:hover {
+  background-color: #5a3e1b;
+}

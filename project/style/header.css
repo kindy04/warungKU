@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  backdrop-filter: blur(25px);
+  background-color: rgba(115, 72, 20, 0.7);
+  background-size: cover;
+
+  padding: 1em;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-logo {
+  position: absolute;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 3em;
+  width: 50%;
+  cursor: pointer;
+  transition: all ease 0.2s;
+}
+
+.navbar-logo:hover {
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ff0800, 0 0 30px #f13f38,
+    0 0 40px #9d1f1b, 0 0 50px #ce5a56;
+  font-size: 1.7em;
+}
+
+.navbar-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  transition: background-color 0.1s ease;
+  margin-right: 70%;
+  transition: all ease 0.2s;
+}
+
+.navbar-links a:hover {
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #ff0800, 0 0 30px #f13f38,
+    0 0 40px #9d1f1b, 0 0 50px #ce5a56;
+}
+
+.navbar-img img {
+  height: auto;
+
+  transition: all 0.3s ease;
+}
+
+.navbar-img img:hover {
+  filter: drop-shadow(5px 5px 5px #9d1f1b);
+  width: 60px !important;
+}

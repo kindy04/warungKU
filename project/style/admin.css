@@ -1,0 +1,123 @@
+body {
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  margin-bottom: 30px;
+}
+
+.buttons a {
+  background-color: #6a5029;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.admin-container {
+  width: 90%;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  color: #6f4f1f;
+}
+
+h2 {
+  color: #6f4f1f;
+}
+
+.content,
+.transaction-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.menu-forms,
+.transaction-form {
+  width: 45%;
+}
+
+.existing-menus,
+.existing-transactions {
+  width: 50%;
+}
+
+.form-container,
+.transaction-form {
+  background-color: #fdfdfd;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input,
+textarea,
+select {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px;
+  background-color: #6f4f1f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #5a3e1b;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table th {
+  background-color: #6f4f1f;
+  color: white;
+}
+
+#previewContainer {
+  margin-top: 10px;
+}
+
+#imagePreview {
+  display: block;
+  max-width: 100px;
+  max-height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
